@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Animation Site</title>
+    <link
+      rel="shortcut icon"
+      href="data:image/png;base64,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"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="nav">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUKyWw-cXv6k7RLThVdx8vcZKang91PLxBew&usqp=CAU"
+        alt=""
+      />
+      <h4>Toptracer Range</h4>
+      <h4>Football Lessons</h4>
+      <h4>Adventure Football</h4>
+      <h4>Coffee Shop</h4>
+      <h4>Leagues</h4>
+    </div>
+    <div id="cursor"></div>
+    <video
+      autoplay
+      loop
+      muted
+      src="https://player.vimeo.com/external/347925915.sd.mp4?s=a362bd16943275194dfd58119f7605c1357931aa&profile_id=164&oauth2_token_id=57447761"
+    ></video>
+    <div id="main">
+      <div id="page1">
+        <h1>EAT. DRINK. PLAY.</h1>
+        <h2>WELCOME TO SIDCUP FAMILY FOOTBALL!</h2>
+        <p>
+          Football is a well-known sport all around the world. The game of
+          football develops in the players a fair mind, team effort, and
+          competitive spirit.
+        </p>
+        <div id="arrow">
+          <i class="ri-arrow-down-line"></i>
+        </div>
+      </div>
+      <div id="page2">
+        <div id="scroller">
+          <div id="scroller-in">
+            <h4>Toptracer Range</h4>
+            <h4>Football Lessons</h4>
+            <h4>Adventure Football</h4>
+            <h4>Coffee Shop</h4>
+            <h4>Leagues</h4>
+          </div>
+          <div id="scroller-in"></div>
+          <h4>Toptracer Range</h4>
+          <h4>Football Lessons</h4>
+          <h4>Adventure Football</h4>
+          <h4>Coffee Shop</h4>
+          <h4>Leagues</h4>
+        </div>
+        <div id="about-us">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwINPEnMOzXlIrN0PtyztKXTwOVz9Vtxspg&usqp=CAU"
+            alt=""
+          />
+          <div id="about-us-in">
+            <h3>ABOUT US</h3>
+            <p>
+              Football is a game that millions of people around the world play
+              and love. It can be called a universal game because every small
+              and big nation plays it. Moreover, it's a great relaxer, stress
+              reliever, teacher of discipline and teamwork. Apart from that, it
+              keeps the body and mind fit and healthy.
+            </p>
+          </div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwINPEnMOzXlIrN0PtyztKXTwOVz9Vtxspg&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div id="cards-container">
+          <div class="card" id="card1">
+            <div class="overlay">
+              <h4>Toptracer Range</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                unde laudantium est nesciunt maxime explicabo, ab sapiente
+                praesentium consectetur magni?
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <div class="overlay">
+              <h4>Football Lessons</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                unde laudantium est nesciunt maxime explicabo, ab sapiente
+                praesentium consectetur magni?
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <div class="overlay">
+              <h4>Adventure Football</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                unde laudantium est nesciunt maxime explicabo, ab sapiente
+                praesentium consectetur magni?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="green-div">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mPqmlZnoRppwfgj1VPb13MD-K0fQgg78Sg&usqp=CAU"
+            alt=""
+          />
+          <h4>
+            sign up for sidcup news and special offers straight to your inbox
+          </h4>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mPqmlZnoRppwfgj1VPb13MD-K0fQgg78Sg&usqp=CAU"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="page3">
+        <p>
+          Football is a well-known sport all around the world. The game of
+          football develops in the players a fair mind, team effort, and
+          competitive spirit. It is regarded as one of the most disciplined
+          sports in the world. Football is quite popular in all countries.
+        </p>
+        <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+      </div>
+      <div id="page4">
+        <h1>What are you waiting for?</h1>
+        <div class="elem">
+          <h2>Toptracer Range</h2>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4tqVw0ELoCyiwjvsDbUAMmJwvc5n0QtTs6A&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <h2>Football Lessons</h2>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqtVQGNTKNDsSxrJ8XIlgSfhtEarVgQhePNg&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <h2>Leagues</h2>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS47JqLiKmVlxWy6xA6zbCTmOafDeaYvP1P-A&usqp=CAU"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
